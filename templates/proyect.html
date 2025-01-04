@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+<div class="container my-5">
+    <div class="row">
+      {% for proyect in proyectos %}
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="{{ url_for('static', filename='images/' + proyect.imagen) }}" class="card-img-top" alt="{{ proyect.nombre }}">
+            <div class="card-body">
+              <h5 class="card-title">{{ proyect.nombre }}</h5>
+              <p class="card-text">{{ proyect.descripcion }}</p>
+              <a href="#" class="btn btn-primary">Ver Proyecto</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+
