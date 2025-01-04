@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio Web Application with Flask
 
 This project is a simple portfolio web application built with **Flask**, **SQLAlchemy**, **HTML**, **CSS**, and **Bootstrap**. It allows users to view a list of projects and contact the portfolio owner.
@@ -33,3 +34,8 @@ This project is a simple portfolio web application built with **Flask**, **SQLAl
 ### Contact Form
 ![Contact Form](static/img/contact-form.png)
 
+=======
+# Portfolio Project
+This is my portfolio project where I showcase my skills and projects.
+
+>>>>>>> 8eafc8ea5a18158622b82d9892fd657fe28cddee
